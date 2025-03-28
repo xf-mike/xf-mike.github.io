@@ -6,7 +6,7 @@ author_profile: true
 redirect_from: 
   - /home/
   - /about/
-  - /index/
+  - /index.html
 ---
 
 {% if site.google_scholar_stats_use_cdn %}
@@ -42,17 +42,6 @@ My research interest includes LLM, knowledge graph, RAG, PEFT, Knowledge Distill
 - *2019.06 - 2022.04 (now)*, UC San Diego, Master of Computer Science. 
 - *2015.09 - 2019.06*, Drexel University, Bachelor of Data Science & Computer Science.
 - *2015.09 - 2019.06*, Lanzhou University, Bachelor of Computer Science & Engineering. 
-
-
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-
-# 💬 Invited Talks
-- *2023.05*, ISWC Guest Speaker 
-- *2021.03*, Chrome Debugger Sharing
-
 
 # 📝 Publications 
 
@@ -107,4 +96,17 @@ Yuan An, Jane Greenberg, Xiaohua Hu, Alex Kalinowski, **Xiao Fang**, Xintong Zha
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 
+# 🎖 Honors and Awards
+- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
+
+# 💬 Invited Talks
+- *2023.05*, ISWC Guest Speaker 
+- *2021.03*, Chrome Debugger Sharing
+- 
+<div class='paper-box'>
+    <div>
+      <a href="/blog">more</a>
+    </div>
+<div class='paper-box-text' markdown="1">
