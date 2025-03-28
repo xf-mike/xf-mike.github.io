@@ -4,9 +4,9 @@ title: ""
 excerpt: ""
 author_profile: true
 redirect_from: 
-  - /home/
-  - /about/
-  - /index/
+  - /home
+  - /about
+  - /index
 ---
 
 {% if site.google_scholar_stats_use_cdn %}
