@@ -2,9 +2,10 @@
 permalink: /project
 title: ""
 excerpt: ""
-author_profile: true
+author_profile: false
+head_navigator: false
 redirect_from: 
-  - /project/
+  - /projects/
 ---
 
 {% if site.google_scholar_stats_use_cdn %}

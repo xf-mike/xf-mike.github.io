@@ -2,9 +2,10 @@
 permalink: /blog
 title: ""
 excerpt: ""
-author_profile: true
+author_profile: false
+head_navigator: false
 redirect_from: 
-  - /blog/
+  - /blogs/
 ---
 
 
