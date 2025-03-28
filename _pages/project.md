@@ -1,11 +1,10 @@
 ---
-permalink: /project
-title: ""
+permalink: /projects
+title: " - Projects"
 excerpt: ""
 author_profile: false
-head_navigator: false
 redirect_from: 
-  - /projects/
+  - /project/
 ---
 
 {% if site.google_scholar_stats_use_cdn %}
@@ -53,7 +52,7 @@ My research interest includes LLM, knowledge graph, RAG, PEFT, Knowledge Distill
   </div>
   <div class='paper-box-text' markdown="1">
 
-[Prompt Design and Answer Processing for Knowledge Base Construction from Pre-trained Language Models](https://cci.drexel.edu/faculty/yan/publications/kbc-lm-2022-drexel.pdf)
+[Prompt Design and Answer Processing for Knowledge Base Construction from Pre-trained Language Models](\docs\Adapting_Toxicity_Detection_from_Comments_to_Conversations_with_PEFT_and_Knowledge_Distillation.pdf)
 
 **Xiao Fang**, Alex Kalinowski, Haoran Zhao, Ziao You, Yuhao Zhang, Yuan An
 

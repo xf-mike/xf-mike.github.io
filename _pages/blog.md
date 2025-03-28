@@ -1,11 +1,10 @@
 ---
-permalink: /blog
-title: ""
+permalink: /blogs
+title: " - Blogs"
 excerpt: ""
 author_profile: false
-head_navigator: false
 redirect_from: 
-  - /blogs/
+  - /blog/
 ---
 
 

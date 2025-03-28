@@ -24,7 +24,7 @@ author:
   name             : "Mike(Xiao) Fang"
   avatar           : "images/android-chrome-512x512.png"
   bio              : "MSCS in UCSD"
-  location         : "San Diego, CA"
+  location         : "UC San Diego"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=0bCTNcsAAAAJ"
@@ -37,13 +37,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : xf-mike # e.g., "github username"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : # e.g., "linkedin username"
+  linkedin         : xf-mike # e.g., "linkedin username"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid            : # e.g., "https://orcid.org/xxxx"
   pinterest        :
@@ -55,7 +55,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          :
+  youtube          : xf_mike
   wikipedia        :
 
 
@@ -64,8 +64,8 @@ include:
   - .htaccess
   - _pages
   - files
-exclude:
   - docs
+exclude:
   - google_scholar_crawler
   - "*.sublime-project"
   - "*.sublime-workspace"

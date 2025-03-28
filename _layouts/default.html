@@ -14,7 +14,12 @@ layout: compress
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
+    {% if page.author_profile %}
     <div id="main" role="main">
+    {% else %}
+    <div id="main" role="main" style="margin-left: 0;">
+    {% endif %}
+
       {% include sidebar.html %}
     
       <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
