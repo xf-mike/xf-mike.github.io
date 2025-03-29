@@ -82,22 +82,95 @@ Yuan An, Jane Greenberg, Xiaohua Hu, Alex Kalinowski, **Xiao Fang**, Xintong Zha
   </div>
 </div>
 
-# 💭 Projects 
-# [*- Full List*](/projects)
+# 💭 Projects [*- View Full List*](/projects)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISWC 2022</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-[Prompt Design and Answer Processing for Knowledge Base Construction from Pre-trained Language Models](https://cci.drexel.edu/faculty/yan/publications/kbc-lm-2022-drexel.pdf)
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">IEEE 2022</div>
+      <img src='../images/500-300-mofs.png' alt="sym" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
 
-**Xiao Fang**, Alex Kalinowski, Haoran Zhao, Ziao You, Yuhao Zhang, Yuan An
+[Exploring Pre-Trained Language Models to Build Knowledge Graph for Metal-Organic Frameworks](https://ieeexplore.ieee.org/abstract/document/10020568/)
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=0bCTNcsAAAAJ&citation_for_view=0bCTNcsAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='0bCTNcsAAAAJ:ALROH1vI_8AC'></span></strong>
+Yuan An, Jane Greenberg, Xiaohua Hu, Alex Kalinowski, **Xiao Fang**, Xintong Zhao, Scott McCLellan, Fernando J Uribe-Romo, Kyle Langlois, Jacob Furst, Diego A Gómez-Gualdrón, Fernando Fajardo-Rojas, Katherine Ardila, Semion K Saikin, Corey A Harper, Ron Daniel
+
+  </div>
 </div>
+
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">IEEE 2022</div>
+      <img src='../images/500-300-mofs.png' alt="sym" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+[Exploring Pre-Trained Language Models to Build Knowledge Graph for Metal-Organic Frameworks](https://ieeexplore.ieee.org/abstract/document/10020568/)
+
+Yuan An, Jane Greenberg, Xiaohua Hu, Alex Kalinowski, **Xiao Fang**, Xintong Zhao, Scott McCLellan, Fernando J Uribe-Romo, Kyle Langlois, Jacob Furst, Diego A Gómez-Gualdrón, Fernando Fajardo-Rojas, Katherine Ardila, Semion K Saikin, Corey A Harper, Ron Daniel
+
+  </div>
 </div>
 
-# 💬 Blogs
-# [*- Full List*](/blogs)
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">IEEE 2022</div>
+      <img src='../images/500-300-mofs.png' alt="sym" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+[Exploring Pre-Trained Language Models to Build Knowledge Graph for Metal-Organic Frameworks](https://ieeexplore.ieee.org/abstract/document/10020568/)
+
+Yuan An, Jane Greenberg, Xiaohua Hu, Alex Kalinowski, **Xiao Fang**, Xintong Zhao, Scott McCLellan, Fernando J Uribe-Romo, Kyle Langlois, Jacob Furst, Diego A Gómez-Gualdrón, Fernando Fajardo-Rojas, Katherine Ardila, Semion K Saikin, Corey A Harper, Ron Daniel
+
+  </div>
+</div>
+
+
+# 💬 Blogs [*- View Full List*](/blogs)
 
 - *2023.05*, ISWC Guest Speaker 
 - *2021.03*, Chrome Debugger Sharing
+
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">IEEE 2022</div>
+      <img src='../images/500-300-mofs.png' alt="sym" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+[Exploring Pre-Trained Language Models to Build Knowledge Graph for Metal-Organic Frameworks](https://ieeexplore.ieee.org/abstract/document/10020568/)
+
+Yuan An, Jane Greenberg, Xiaohua Hu, Alex Kalinowski, **Xiao Fang**, Xintong Zhao, Scott McCLellan, Fernando J Uribe-Romo, Kyle Langlois, Jacob Furst, Diego A Gómez-Gualdrón, Fernando Fajardo-Rojas, Katherine Ardila, Semion K Saikin, Corey A Harper, Ron Daniel
+
+  </div>
+</div>
+
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">IEEE 2022</div>
+      <img src='../images/500-300-mofs.png' alt="sym" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+[Exploring Pre-Trained Language Models to Build Knowledge Graph for Metal-Organic Frameworks](https://ieeexplore.ieee.org/abstract/document/10020568/)
+
+Yuan An, Jane Greenberg, Xiaohua Hu, Alex Kalinowski, **Xiao Fang**, Xintong Zhao, Scott McCLellan, Fernando J Uribe-Romo, Kyle Langlois, Jacob Furst, Diego A Gómez-Gualdrón, Fernando Fajardo-Rojas, Katherine Ardila, Semion K Saikin, Corey A Harper, Ron Daniel
+
+  </div>
+</div>
