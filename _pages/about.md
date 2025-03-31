@@ -19,11 +19,11 @@ redirect_from:
 
 Welcome! My name is 方(Fang) 啸(Xiao). Call me Mike if you like.
 
-I am pursuing my master's degree at the [CSE department of UC San Diego](https://cse.ucsd.edu/). My research interests hold in multiple areas associated with LLMs, from Knowledge Graphs, Adversarial Attack, PEFT (LoRA, P-Tuning), to ML System (Efficient Inference Architecture). I have 2 publications in top AI conferences, with <a href='https://scholar.google.com/citations?user=0bCTNcsAAAAJ'><span id='total_cit'>20</span> citations</a>. Feel free to reach out via email if you are interested in collaboration!
-
 I worked as a Cloud Engineer at [Oracle Cloud Infrastructure](https://www.oracle.com/cloud/) and participated in the Cloud-Native migration of [Primavera Cloud](https://www.oracle.com/construction-engineering/primavera-cloud-project-management/). Before that, I worked as a Full-Stack Engineer at [Moberg Analytics](https://moberganalytics.com/) and contributed to the early design and development of [CONNECT](https://moberganalytics.com/moberg-connect/) (the predecessor of [Moberg AI Ecosystem](https://moberganalytics.com/moberg-cloud-platform/)).
 
-Besides, I completed my undergraduate at [Drexel University](https://drexel.edu/cci/) and awarded as the [Outstanding Research Assistant](https://drexel.edu/cci/student-experience/awards-scholarships/#:~:text=OUTSTANDING%20RESEARCH%20ASSISTANT%20AWARD) of 2023.
+Currently, I am pursuing my master's degree at the [CSE department of UC San Diego](https://cse.ucsd.edu/). My research interests hold in multiple areas associated with LLMs, from Knowledge Graphs, Adversarial Attack, PEFT (LoRA, P-Tuning), to ML System (Efficient Inference Architecture). I have 2 publications in top AI conferences, with <a href='https://scholar.google.com/citations?user=0bCTNcsAAAAJ'><span id='total_cit'>20</span> citations</a>. Feel free to reach out via email if you are interested in collaboration!
+
+I completed my undergraduate at [Drexel University](https://drexel.edu/cci/) and was awarded as the [Outstanding Research Assistant](https://drexel.edu/cci/student-experience/awards-scholarships/#:~:text=OUTSTANDING%20RESEARCH%20ASSISTANT%20AWARD) of 2023 under the guidance of Professor [Yuan An](https://cci.drexel.edu/faculty/yan/). 
 
 
 # 🔥 Updates
