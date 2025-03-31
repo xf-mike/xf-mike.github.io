@@ -42,7 +42,7 @@ Besides, I completed my undergraduate at [Drexel University](https://drexel.edu/
   - INFO323 - Cloud Computing and Big Data
 - *2022.09 - 2023.04*, [Moberg Analytics](https://moberganalytics.com/), **Full-Stack Engineer**, Philadelphia.
   - Speaker, Multimodal Report Mining Proposal, *2022.11* ([slides](/docs/multimodal_report_analysis.pptx))
-  - Speaker, Developer Troubleshooting Tools & Experience Workshop, *2023.04*
+  - Speaker, Chrome Debugger Tools & Experience Workshop, *2023.04*
 - *2022.08 - 2023.05*, [Drexel University - CCI](https://drexel.edu/cci/), **Research Assistant**, guided by Professor [Yuan An](https://cci.drexel.edu/faculty/yan/), Philadelphia.
   - [*Prompt Design and Answer Processing for Knowledge Base Construction from Pre-trained Language Models*](https://ceur-ws.org/Vol-3274/paper5.pdf). ISWC 2022.
   - [*Exploring Pre-Trained Language Models to Build Knowledge Graph for Metal-Organic Frameworks*](https://ieeexplore.ieee.org/document/10020568). IEEE Big Data 2022.
@@ -157,7 +157,7 @@ Yuan An, Jane Greenberg, Xiaohua Hu, Alex Kalinowski, **Xiao Fang**, Xintong Zha
   </div>
 </div>
 
-
+<!-- 
 # 💬 Blogs [*- View Full List*](/blogs)
 
 - *2023.05*, ISWC Guest Speaker 
@@ -195,4 +195,4 @@ Yuan An, Jane Greenberg, Xiaohua Hu, Alex Kalinowski, **Xiao Fang**, Xintong Zha
 Yuan An, Jane Greenberg, Xiaohua Hu, Alex Kalinowski, **Xiao Fang**, Xintong Zhao, Scott McCLellan, Fernando J Uribe-Romo, Kyle Langlois, Jacob Furst, Diego A Gómez-Gualdrón, Fernando Fajardo-Rojas, Katherine Ardila, Semion K Saikin, Corey A Harper, Ron Daniel
 
   </div>
-</div>
+</div> -->
