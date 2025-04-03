@@ -110,7 +110,7 @@ We explored a set of SOTA pre-trained general-purpose and domain-specific langua
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">System</div>
+      <div class="badge">OS</div>
       <img src='../images/mlqf.png' alt="sym" width="100%">
     </div>
   </div>
@@ -131,7 +131,7 @@ We explored a set of SOTA pre-trained general-purpose and domain-specific langua
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">Sequential ML</div>
+      <div class="badge">ML for Sequence</div>
       <img src='../images/heartbeat.png' alt="sym" width="100%">
     </div>
   </div>

@@ -8,13 +8,13 @@ redirect_from:
 ---
 
 
-# 💭 Projects [*- View Full List*](/projects)
+# 💭 Projects
 
 
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">System</div>
+      <div class="badge">OS</div>
       <img src='../images/mlqf.png' alt="sym" width="100%">
     </div>
   </div>
@@ -35,7 +35,7 @@ redirect_from:
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">Sequential ML</div>
+      <div class="badge">ML for Sequence</div>
       <img src='../images/heartbeat.png' alt="sym" width="100%">
     </div>
   </div>
