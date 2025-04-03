@@ -77,7 +77,7 @@ I completed my undergraduate at [Drexel University](https://drexel.edu/cci/) and
   </div>
   <div class='paper-box-text' markdown="1">
 
-[Prompt Design and Answer Processing for Knowledge Base Construction from Pre-trained Language Models](https://cci.drexel.edu/faculty/yan/publications/kbc-lm-2022-drexel.pdf)
+**Prompt Design and Answer Processing for Knowledge Base Construction from Pre-trained Language Models** ([paper](https://ceur-ws.org/Vol-3274/paper5.pdf))
 
 ***Xiao Fang**, Alex Kalinowski, Haoran Zhao, Ziao You, Yuhao Zhang, Yuan An*
 
@@ -95,7 +95,7 @@ The ISWC-2022 challenge on Knowledge Base Construction from Pre-trained Language
   </div>
   <div class='paper-box-text' markdown="1">
 
-[Exploring Pre-Trained Language Models to Build Knowledge Graph for Metal-Organic Frameworks](https://ieeexplore.ieee.org/abstract/document/10020568/)
+**Exploring Pre-Trained Language Models to Build Knowledge Graph for Metal-Organic Frameworks** ([paper](https://ieeexplore.ieee.org/abstract/document/10020568/))
 
 *Yuan An, Jane Greenberg, Xiaohua Hu, Alex Kalinowski, **Xiao Fang**, Xintong Zhao, Scott McCLellan, Fernando J Uribe-Romo, Kyle Langlois, Jacob Furst, ...*
 
@@ -110,15 +110,19 @@ We explored a set of SOTA pre-trained general-purpose and domain-specific langua
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">IEEE 2022</div>
-      <img src='../images/mofs.png' alt="sym" width="100%">
+      <div class="badge">System</div>
+      <img src='../images/mlqf.png' alt="sym" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
+  
+**Kernel Component Development Based on UMIX** ([tester](https://github.com/xf-mike/CSE120-Self-Testers))
 
-[Exploring Pre-Trained Language Models to Build Knowledge Graph for Metal-Organic Frameworks](https://ieeexplore.ieee.org/abstract/document/10020568/)
+-Implemented context switching between processes using Yield, enabling efficient time sharing. Developed a user-level multithreading management system, supporting concurrent execution within a single process.
 
-*Yuan An, Jane Greenberg, Xiaohua Hu, Alex Kalinowski, **Xiao Fang**, Xintong Zhao, Scott McCLellan, Fernando J Uribe-Romo, Kyle Langlois, Jacob Furst, Diego A Gómez-Gualdrón, Fernando Fajardo-Rojas, Katherine Ardila, Semion K Saikin, Corey A Harper, Ron Daniel*
+-Designed and implemented multiple scheduling algorithms, including Round Robin, MLQF, and Stride Scheduling. Addressed MLQF starvation through periodic priority resets. For Stride Scheduling, resolved numerical overflow with Pass Normalization and derived the safe upper bound for L-values by numerical analysis, achieving the optimal precision limit.
+
+-Built a synchronization mechanism based on Semaphores, applying it to a single-lane bidirectional-traffic scheduling model, avoiding busy waiting and ensuring minimal average turnaround time.
 
   </div>
 </div>
@@ -127,15 +131,21 @@ We explored a set of SOTA pre-trained general-purpose and domain-specific langua
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">IEEE 2022</div>
-      <img src='../images/mofs.png' alt="sym" width="100%">
+      <div class="badge">Sequential ML</div>
+      <img src='../images/heartbeat.png' alt="sym" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
 
-[Exploring Pre-Trained Language Models to Build Knowledge Graph for Metal-Organic Frameworks](https://ieeexplore.ieee.org/abstract/document/10020568/)
+**Deep Learning for Heart Disease Prediction** ([poster](/docs/Poster_Deep_Learning_for_Heart_Disease_Prediction.pdf)\|[report](/docs/Heart_Disease_Prediction_using_Deep_Learning_Methods.pdf))
 
-Yuan An, Jane Greenberg, Xiaohua Hu, Alex Kalinowski, **Xiao Fang**, Xintong Zhao, Scott McCLellan, Fernando J Uribe-Romo, Kyle Langlois, Jacob Furst, Diego A Gómez-Gualdrón, Fernando Fajardo-Rojas, Katherine Ardila, Semion K Saikin, Corey A Harper, Ron Daniel
+***Xiao Fang**, Ziao You, Weijie Chen, Yixuan Song, Kan Kim*
+
+-Processed a large-scale dataset (33.5 hours of audio), including filtering out non-heartbeat segments, frequency thresholding, and data augmentation through audio subsetting.
+
+-Derived key audio attributes including Mel-Frequency Cepstral Coefficients (FMCC), band power, chromagram, and Mel-spectrograms, combining them with patient demographics information to provide a richer feature representation.
+
+-Implemented and tested various ML pipelines: MLPs, CNNs, RNNs, and ensemble models. Achieved the highest accuracy with an Voting-MOE MLP pipeline trained on different feature sets (66%) and a CNN trained on concatenated features (64.22%), significantly outperforming the RNN baseline (50%).
 
   </div>
 </div>
@@ -144,55 +154,22 @@ Yuan An, Jane Greenberg, Xiaohua Hu, Alex Kalinowski, **Xiao Fang**, Xintong Zha
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">IEEE 2022</div>
-      <img src='../images/mofs.png' alt="sym" width="100%">
+      <div class="badge">NLP</div>
+      <img src='../images/peft-kd.png' alt="sym" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
 
-[Exploring Pre-Trained Language Models to Build Knowledge Graph for Metal-Organic Frameworks](https://ieeexplore.ieee.org/abstract/document/10020568/)
+**Adapting Toxicity Detection from Comments to Conversational Corpus** ([report](/docs/Adapting_Toxicity_Detection_from_Comments_to_Conversations_with_PEFT_and_Knowledge_Distillation.pdf))
 
-Yuan An, Jane Greenberg, Xiaohua Hu, Alex Kalinowski, **Xiao Fang**, Xintong Zhao, Scott McCLellan, Fernando J Uribe-Romo, Kyle Langlois, Jacob Furst, Diego A Gómez-Gualdrón, Fernando Fajardo-Rojas, Katherine Ardila, Semion K Saikin, Corey A Harper, Ron Daniel
+-Performed balanced down sampling and conducted fine-tuning experiments on both the imbalanced and sampled datasets for fairness because the lmsys/Toxic-Chat dataset is highly imbalanced, with 92.5% toxic samples.
+
+-Applied Knowledge Distillation (KD) to transfer multi-faceted toxicity evaluation knowledge from the OpenAI Moderation API to the Unitary Toxic BERT model, enhancing model robustness.
+
+-Employed Parameter-Efficient Fine-Tuning with LoRA, reducing the number of updated parameters to only 0.4% of the full-parameter fine-tuning method, while shortening training time by 12%.
+
+-Optimized multi-objective training through hyperparameter tuning, balancing the primary toxicity detection and KD objectives, leading to a 45% F1-score improvement over the pure-PEFT strategy.
+
 
   </div>
 </div>
-
-<!-- 
-# 💬 Blogs [*- View Full List*](/blogs)
-
-- *2023.05*, ISWC Guest Speaker 
-- *2021.03*, Chrome Debugger Sharing
-
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">IEEE 2022</div>
-      <img src='../images/mofs.png' alt="sym" width="100%">
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-
-[Exploring Pre-Trained Language Models to Build Knowledge Graph for Metal-Organic Frameworks](https://ieeexplore.ieee.org/abstract/document/10020568/)
-
-Yuan An, Jane Greenberg, Xiaohua Hu, Alex Kalinowski, **Xiao Fang**, Xintong Zhao, Scott McCLellan, Fernando J Uribe-Romo, Kyle Langlois, Jacob Furst, Diego A Gómez-Gualdrón, Fernando Fajardo-Rojas, Katherine Ardila, Semion K Saikin, Corey A Harper, Ron Daniel
-
-  </div>
-</div>
-
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">IEEE 2022</div>
-      <img src='../images/mofs.png' alt="sym" width="100%">
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-
-[Exploring Pre-Trained Language Models to Build Knowledge Graph for Metal-Organic Frameworks](https://ieeexplore.ieee.org/abstract/document/10020568/)
-
-Yuan An, Jane Greenberg, Xiaohua Hu, Alex Kalinowski, **Xiao Fang**, Xintong Zhao, Scott McCLellan, Fernando J Uribe-Romo, Kyle Langlois, Jacob Furst, Diego A Gómez-Gualdrón, Fernando Fajardo-Rojas, Katherine Ardila, Semion K Saikin, Corey A Harper, Ron Daniel
-
-  </div>
-</div> -->

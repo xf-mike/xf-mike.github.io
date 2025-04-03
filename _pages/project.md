@@ -7,104 +7,73 @@ redirect_from:
   - /project/
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<span class='anchor' id='about'></span>
+# 💭 Projects [*- View Full List*](/projects)
 
-I just finished my first quarter in UCSD. Just got my driver license before new year 2025. I am looking for research opportunity in LLM intersection domain.
-
-My research interest includes LLM, knowledge graph, RAG, PEFT, Knowledge Distillation. I have 2 publications at the top international AI conferences with <a href='https://scholar.google.com/citations?user=0bCTNcsAAAAJ'>citations <strong><span id='total_cit'>20</span></strong></a>.
-
-
-# 🔥 Updates
-
-- *2024.09*: &nbsp;🎉🎉 Joined UCSD CSE! La Jolla awesome!
-- *2024.06*: &nbsp;🎉🎉 Graduate from Drexel.
-- *2023.12*: &nbsp;🎉🎉 I was awarded as the annual out standing research assistant at Drexel CCI. 
-
-
-# 💻 Experiences
-
-- *2023.10 - 2024.04*, [Lorem](https://github.com/), Oracle Cloud.
-- *2023.10 - 2024.04*, [Lorem](https://github.com/), TA, Drexel CCI.
-- *2022.09 - 2023.04*, [Lorem](https://github.com/), Moberg Analytics.
-- *2020.06 - 2020.09*, [Hefei](https://github.com/), China, 合肥工业大学网络安全中心.
-
-# 📖 Educations
-
-- *2019.06 - 2022.04 (now)*, UC San Diego, Master of Computer Science. 
-- *2015.09 - 2019.06*, Drexel University, Bachelor of Data Science & Computer Science.
-- *2015.09 - 2019.06*, Lanzhou University, Bachelor of Computer Science & Engineering. 
-
-# 📝 Publications 
 
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">ISWC 2022</div>
-      <img src='images/500x300.png' alt="sym" width="100%">
+      <div class="badge">System</div>
+      <img src='../images/mlqf.png' alt="sym" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
+  
+**Kernel Component Development Based on UMIX** ([code](./))
 
-[Prompt Design and Answer Processing for Knowledge Base Construction from Pre-trained Language Models](\docs\Adapting_Toxicity_Detection_from_Comments_to_Conversations_with_PEFT_and_Knowledge_Distillation.pdf)
+-Implemented context switching between processes using Yield, enabling efficient time sharing. Developed a user-level multithreading management system, supporting concurrent execution within a single process.
 
-**Xiao Fang**, Alex Kalinowski, Haoran Zhao, Ziao You, Yuhao Zhang, Yuan An
+-Designed and implemented multiple scheduling algorithms, including Round Robin, MLQF, and Stride Scheduling. Addressed MLQF starvation through periodic priority resets. For Stride Scheduling, resolved numerical overflow with Pass Normalization and derived the safe upper bound for L-values by numerical analysis, achieving the optimal precision limit.
+
+-Built a synchronization mechanism based on Semaphores, applying it to a single-lane bidirectional-traffic scheduling model, avoiding busy waiting and ensuring minimal average turnaround time.
 
   </div>
 </div>
+
 
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">IEEE 2022</div>
-      <img src='/images/500-300-mofs.png' alt="sym" width="100%">
+      <div class="badge">Sequential ML</div>
+      <img src='../images/heartbeat.png' alt="sym" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
 
-[Exploring Pre-Trained Language Models to Build Knowledge Graph for Metal-Organic Frameworks](https://ieeexplore.ieee.org/abstract/document/10020568/)
+**Deep Learning for Heart Disease Prediction** ([poster](/docs/Poster_Deep_Learning_for_Heart_Disease_Prediction.pdf)\|[report](/docs/Heart_Disease_Prediction_using_Deep_Learning_Methods.pdf))
 
-Yuan An, Jane Greenberg, Xiaohua Hu, Alex Kalinowski, **Xiao Fang**, Xintong Zhao, Scott McCLellan, Fernando J Uribe-Romo, Kyle Langlois, Jacob Furst, Diego A Gómez-Gualdrón, Fernando Fajardo-Rojas, Katherine Ardila, Semion K Saikin, Corey A Harper, Ron Daniel
+***Xiao Fang**, Ziao You, Weijie Chen, Yixuan Song, Kan Kim*
+
+-Processed a large-scale dataset (33.5 hours of audio), including filtering out non-heartbeat segments, frequency thresholding, and data augmentation through audio subsetting.
+
+-Derived key audio attributes including Mel-Frequency Cepstral Coefficients (FMCC), band power, chromagram, and Mel-spectrograms, combining them with patient demographics information to provide a richer feature representation.
+
+-Implemented and tested various ML pipelines: MLPs, CNNs, RNNs, and ensemble models. Achieved the highest accuracy with an Voting-MOE MLP pipeline trained on different feature sets (66%) and a CNN trained on concatenated features (64.22%), significantly outperforming the RNN baseline (50%).
 
   </div>
 </div>
 
-# 💭 Projects
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISWC 2022</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Prompt Design and Answer Processing for Knowledge Base Construction from Pre-trained Language Models](https://cci.drexel.edu/faculty/yan/publications/kbc-lm-2022-drexel.pdf)
-
-**Xiao Fang**, Alex Kalinowski, Haoran Zhao, Ziao You, Yuhao Zhang, Yuan An
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=0bCTNcsAAAAJ&citation_for_view=0bCTNcsAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='0bCTNcsAAAAJ:ALROH1vI_8AC'></span></strong>
-</div>
-</div>
-
-
-<!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
-
-
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-
-# 💬 Invited Talks
-- *2023.05*, ISWC Guest Speaker 
-- *2021.03*, Chrome Debugger Sharing
-- 
 <div class='paper-box'>
+  <div class='paper-box-image'>
     <div>
-      <a href="/blog">more</a>
+      <div class="badge">NLP</div>
+      <img src='../images/peft-kd.png' alt="sym" width="100%">
     </div>
-<div class='paper-box-text' markdown="1">
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+**Adapting Toxicity Detection from Comments to Conversational Corpus** ([report](/docs/Adapting_Toxicity_Detection_from_Comments_to_Conversations_with_PEFT_and_Knowledge_Distillation.pdf))
+
+-Performed balanced down sampling and conducted fine-tuning experiments on both the imbalanced and sampled datasets for fairness because the lmsys/Toxic-Chat dataset is highly imbalanced, with 92.5% toxic samples.
+
+-Applied Knowledge Distillation (KD) to transfer multi-faceted toxicity evaluation knowledge from the OpenAI Moderation API to the Unitary Toxic BERT model, enhancing model robustness.
+
+-Employed Parameter-Efficient Fine-Tuning with LoRA, reducing the number of updated parameters to only 0.4% of the full-parameter fine-tuning method, while shortening training time by 12%.
+
+-Optimized multi-objective training through hyperparameter tuning, balancing the primary toxicity detection and KD objectives, leading to a 45% F1-score improvement over the pure-PEFT strategy.
+
+
+  </div>
+</div>
