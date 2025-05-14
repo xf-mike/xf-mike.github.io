@@ -3,7 +3,7 @@ name: Get Citation Data
 on: 
  page_build: 
  schedule:
-  - cron:  '0 8 * * *'
+  - cron:  '0 0 * * 1'  # 每周一 UTC 00:00
 
 jobs:
   build:
@@ -17,7 +17,7 @@ jobs:
       run: |
         cd ./google_scholar_crawler
         pip3 install -r requirements.txt
-        python3 main.py
+        timeout 600s python3 main.py
         cd ./results
         git init
         git config --local user.name "${GITHUB_ACTOR}"
