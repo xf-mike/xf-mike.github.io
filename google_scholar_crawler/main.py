@@ -3,32 +3,43 @@ import json
 from datetime import datetime
 import os
 import sys
+import traceback
 
-print("🎯 Starting Google Scholar Crawler...")
+def fetch_author_data(use_proxy=True):
+    if use_proxy:
+        print("🛡️ Attempting to set up free proxy...", flush=True)
+        pg = ProxyGenerator()
+        if pg.FreeProxies():
+            scholarly.use_proxy(pg)
+            print("✅ Proxy set successfully.", flush=True)
+        else:
+            print("⚠️ Proxy setup failed. Proceeding without proxy...", flush=True)
 
-# ====== 1. 设置代理 ======
-print("🛡️ Attempting to set up free proxy...")
-pg = ProxyGenerator()
-if pg.FreeProxies():
-    scholarly.use_proxy(pg)
-    print("✅ Proxy set successfully.")
-else:
-    print("⚠️ Failed to set proxy. Proceeding without proxy...")
-
-# ====== 2. 获取 Scholar ID 并爬取 ======
-try:
     scholar_id = os.environ['GOOGLE_SCHOLAR_ID']
-    print(f"🔍 Fetching author by ID: {scholar_id}")
-    author: dict = scholarly.search_author_id(scholar_id)
-    print("✅ Author found. Now filling details...")
+    print(f"🔍 Fetching author by ID: {scholar_id}", flush=True)
+    author = scholarly.search_author_id(scholar_id)
+    print("✅ Author found. Filling details...", flush=True)
     scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
-    print("✅ Author data filled.")
-except Exception as e:
-    print(f"❌ Exception during scholar fetch: {e}", file=sys.stderr)
-    sys.exit(1)
+    return author
 
-# ====== 3. 写入文件 ======
-print("💾 Saving results to disk...")
+# ==== 主流程开始 ====
+print("🎯 Starting Google Scholar Crawler...", flush=True)
+
+try:
+    author = fetch_author_data(use_proxy=True)
+except Exception as e:
+    print(f"❌ Proxy fetch failed: {e}", file=sys.stderr, flush=True)
+    traceback.print_exc()
+    print("🔁 Retrying without proxy...", flush=True)
+    try:
+        author = fetch_author_data(use_proxy=False)
+    except Exception as e2:
+        print(f"💀 Final fetch failed: {e2}", file=sys.stderr, flush=True)
+        traceback.print_exc()
+        sys.exit(1)
+
+# ==== 数据写入 ====
+print("💾 Writing results to files...", flush=True)
 author['updated'] = str(datetime.now())
 author['publications'] = {
     v['author_pub_id']: v for v in author.get('publications', [])
@@ -46,4 +57,4 @@ shieldio_data = {
 with open('results/gs_data_shieldsio.json', 'w') as f:
     json.dump(shieldio_data, f, ensure_ascii=False)
 
-print("🎉 Finished successfully.")
+print("🎉 Fetch and save completed successfully.", flush=True)
